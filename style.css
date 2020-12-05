@@ -28,6 +28,7 @@
 }
 
 body{
+  background-color: rgba(0,0,0,.8);
   margin:0;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -43,7 +44,7 @@ h1{
   color:white
 }
 h2{
-  color:#1b2127;
+  color:white;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
@@ -94,7 +95,7 @@ figure{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color:#1b2127;
+  background-color:black;
   color: white;
   height: 70px;
 }
@@ -105,7 +106,7 @@ figure{
 .footer{
   display: flex;
   color: white;
-  background-color: #1b2127;
+  background-color: black;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -124,7 +125,6 @@ figure{
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #f4fbff;
 }
 .event img{
   width: 480px;
@@ -132,9 +132,11 @@ figure{
   object-fit: cover;
 }
 .event-detail{
+  border-radius: 20px;
+  border: black 5px solid;
   margin:20px 40px;
   margin-top: -40px;
-  background-color: white;
+  background-color:white;
   position: relative;
   padding: 20px;
   text-align: center;
@@ -147,7 +149,7 @@ figure{
   border: 1px solid;
   padding: 5px 20px;
   text-decoration: none;
-  color: #026fff;
+  color: black;
   border-radius: 5px;
 }
 .footer a{
